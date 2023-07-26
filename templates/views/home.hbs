@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elevayt candidate</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/d2ea3cb570.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <article class="grid-container">
+
+        <!--sidebar starts-->
+        <div class="sidebar desktop" id="sidebar">
+            <div class="topbar">
+                <div class="icon">
+                    <img src="/css/images/left.png" alt="" id="bar" >
+                </div>
+                <a href="/index.html"><img src="./images/download.png" alt="" class="logo" id="logo"></a>
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li class="active"><a href="#"><i><img src="./images/icon/grid.png" alt=""></i><span>dashboard</span></a></li>
+                    <li><a href="/resume.html"><i><img src="./images/icon/user.png" alt=""></i><span>manage resume</span></a></li>
+                    <li><a href="/board.html"><i><img src="./images/icon/briefcase.png" alt=""></i><span>job board</span></a></li>
+                    <li><a href="/application.html"><i><img src="./images/icon/timer.png" alt=""></i><span>application tracker</span></a></li>
+                    <li><a href="/saved.html"><i><img src="./images/icon/notes.png" alt=""></i><span>saved jobs</span></a></li>
+                    <li><a href="/calc.html"><i><img src="./images/icon/calculator.png" alt=""></i><span>job calculator</span></a></li>
+                    <li><a href="/fairs.html"><i><img src="./images/icon/medal.png" alt=""></i><span>jobfairs</span></a></li>
+                </ul>
+            </div>
+        </div>
+         <!--sidebar ends-->
+
+        <!--sidebar responsive starts-->
+    
+        <div class="sidebar mobile" id="sidebar">
+            <div class="color">
+                <div class="topbar">
+                    <a href="/index.html"><img src="./images/download.png" alt="" class="logo" id="logo"></a>
+                </div>
+                <div class="bottom">
+                    <ul>
+                        <li class="active"><a href="#"><i><img src="./images/icon/grid.png" alt=""></i><span>dashboard</span></a></li>
+                        <li><a href="/resume.html"><i><img src="./images/icon/user.png" alt=""></i><span>manage resume</span></a></li>
+                        <li><a href="/board.html"><i><img src="./images/icon/briefcase.png" alt=""></i><span>job board</span></a></li>
+                        <li><a href="/application.html"><i><img src="./images/icon/timer.png" alt=""></i><span>application tracker</span></a></li>
+                        <li><a href="/saved.html"><i><img src="./images/icon/notes.png" alt=""></i><span>saved jobs</span></a></li>
+                        <li><a href="/calc.html"><i><img src="./images/icon/calculator.png" alt=""></i><span>job calculator</span></a></li>
+                        <li><a href="/fairs.html"><i><img src="./images/icon/medal.png" alt=""></i><span>jobfairs</span></a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-times cross"></i>
+            </div>
+            
+        </div>
+
+        <!--sidebar responsive ends-->
+
+
+
+        <div class="header">
+             <!--header part starts-->
+            <header id="head">
+                <div class="logo" >
+                    <i class="fa-solid fa-bars" id="mobile"></i>
+                    <h3 style="float: right;">Dashboard</h3>
+                </div>
+                <div class="user">
+                    <i class="fas fa-bell bell"></i>
+                    <div class="side">
+                        <h4>name</h4>
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </header>
+            <!--header part ends-->
+        
+            <!--main part starts-->
+            <div class="main" id="main">
+                <div class="container">
+                    <div class="card">
+                        <div class="upper">
+                            <i class="fas fa-briefcase"></i>
+                            <span>job applied</span>
+                        </div>
+                        <h3>0</h3>
+                    </div>
+                    <div class="card">
+                        <div class="upper">
+                            <i class="fa-regular fa-square-check check"></i>
+                            <span>shortlisted</span>
+                        </div>
+                        <h3>0</h3>
+                    </div>
+                    <div class="card">
+                        <div class="upper">
+                            <i class="fa-regular fa-floppy-disk save"></i>
+                            <span>saved</span>
+                        </div>
+                        <h3>0</h3>
+                    </div>
+                    <div class="card">
+                        <div class="upper">
+                            <i class="fa-regular fa-rectangle-xmark cancel"></i>
+                            <span>rejected</span>
+                        </div>
+                        <h3>0</h3>
+                    </div>
+                </div>
+            </div>
+            <!--header part ends-->
+        </div>
+        
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>

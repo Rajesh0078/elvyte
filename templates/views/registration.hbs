@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    <div class="container">
+        {{>usercontent}}
+        <div class="user">
+            <div class="user-login"> 
+                <img src="/public/images/logo.png" alt="">
+                <h3>Sign into your account</h3>
+                <form action="/register" class="form-control" method="POST">
+                    <label for="firstname">fullname</label>
+                    <input type="text" id="firstname" name="fullname" placeholder="enter full name">
+                    <label for="email">email</label>
+                    <input type="email" placeholder="enter email id" id="email" name="email">
+                    <label for="password">password</label>
+                    <input type="password" placeholder="enter password" id="password" name="password">
+                    
+                    <input type="submit" value="register">
+                    <span>already have an account<a href="/" class="login"> login here</a></span>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
